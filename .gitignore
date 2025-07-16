@@ -1,0 +1,27 @@
+# Node modules
+node-backend/node_modules/
+
+# Env files
+*.env
+
+# Docker
+*.tar
+*.log
+
+# VS Code
+.vscode/
+
+# Helm & K8s junk
+**/.helmignore
+**/charts/
+**/tmp/
+**/.DS_Store
+
+# Minikube artifacts
+*.crt
+*.key
+*.pem
+
+# OS junk
+Thumbs.db
+.DS_Store
